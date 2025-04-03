@@ -10,7 +10,7 @@ export const Header = () => {
 
   return (
     <>
-      <header className="sticky top-0 z-50 w-full bg-[var(--primary-light-color)] shadow-md bg-[var(--nav-background-color)]">
+      <header className="sticky top-0 z-50 w-full bg-[var(--primary-light-color)]  bg-[var(--nav-background-color)]">
         <div className="flex justify-between items-center md:px-16 md:py-2 px-2 py-2">
           <div
             className="md:hidden cursor-pointer"

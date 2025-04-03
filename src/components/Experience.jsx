@@ -47,7 +47,7 @@ export const Experience = () => {
         {experience.map((exp, index) => (
           <div
             key={index}
-            className="experience-item w-full flex flex-col md:flex-row gap-3 md:gap-5 items-center justify-between md:p-4 md:border md:border-[var(--border-color)] rounded-md shadow-md"
+            className="experience-item w-full flex flex-col md:flex-row gap-3 md:gap-5 items-center justify-between md:p-4 md:border md:border-[var(--border-color)] rounded-md"
           >
             {exp.logo && (
               <div>
