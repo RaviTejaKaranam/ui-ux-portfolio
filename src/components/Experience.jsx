@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { ThemeContext } from "../context/ThemeContext";
+import { ThemeContext } from "../context/Themecontext.jsx";
 
 import StateStreetDark from "../assets/images/StateStreetDarkLogo.svg";
 import StateStreetLight from "../assets/images/StateStreetLightLogo.svg";

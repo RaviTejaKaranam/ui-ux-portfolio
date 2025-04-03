@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from "react";
-import { ThemeContext } from "../context/ThemeContext.jsx"; // Import your ThemeContext
+import { ThemeContext } from "../context/Themecontext.jsx"; // Import your ThemeContext
 import HomeImgLight from "../assets/images/HomeImgLight.svg";
 import HomeImgDark from "../assets/images/HomeImgDark.svg";
 import PrimaryButton from "../UIComponents/PrimaryButton.jsx";
