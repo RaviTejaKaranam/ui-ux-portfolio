@@ -5,6 +5,9 @@ export const Footer = () => {
       <p className="text-center">
         © {currentYear} Ravi Teja Karanam. All rights reserved.
       </p>
+      <p className="text-center">
+        This website is built using React and Tailwind CSS. ❤️❤️
+      </p>
     </div>
   );
 };
