@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "tailwindcss";
+
+html {
+  --primary-light-color: #f7f3f9;
+  --primary-dark-color: #3b2d4d;
+  -primary-text-color: #333333; /* Dark gray text for normal content */
+  --secondary-text-color: #666666; /* Medium gray for less important content */
+  --accent-text-color: #3b2d4d; /* Dark purple for links or emphasis */
+  transition: background-color 0.3s ease, color 0.3s ease;
+  --nav-background-color: #f7f3f9;
+  --border-color: #e0e0e0;
+  --skills-background-color: #9993;
+  scroll-behavior: smooth;
+}
+html.dark {
+  --primary-light-color: #3b2d4d;
+  --primary-dark-color: #f7f3f9;
+  --primary-text-color: #f7f3f9; /* Light text for normal content */
+  --secondary-text-color: #e0e0e0; /* Light gray for less important content */
+  --accent-text-color: #f7f3f9; /* Light color for links or emphasis */
+  transition: background-color 0.3s ease, color 0.3s ease;
+  --nav-background-color: #563662;
+  --border-color: #524265;
+  --skills-background-color: #683f7d;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--primary-text-color);
+  background-color: var(--primary-light-color);
+  overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a {
+  border: 1px solid transparent;
+}
+
+a.primary:hover {
+  border: 1px solid var(--primary-dark-color);
+}
+#contact a:hover {
+  opacity: 0.6;
+  transition: all 0.3s ease;
+}
+.fa-icon {
+  width: 20px;
+}
+
+.header {
+}
+
+.mobile-menu {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  z-index: 10;
+}
+.mobile-menu a {
+  animation: showMenu 0.5s ease-in-out;
+}
+
+@keyframes showMenu {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
