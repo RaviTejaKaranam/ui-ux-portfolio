@@ -8,14 +8,14 @@ export const projects = () => {
     {
       name: "Button Animations",
       description:
-        "This project showcases a collection of interactive button animations designed to elevate the user experience and add a dynamic feel to web interfaces. The library features a wide range of creative and modern button animations implemented using React and Framer Motion, focusing on unique, subtle, and experimental interactions. ",
+        "This project showcases a collection of interactive button animations designed to elevate the user experience and add a dynamic feel to web and mobile interfaces. The library features a wide range of creative and modern button animations implemented using React and Framer Motion, focusing on unique, subtle, and experimental interactions. ",
       image: buttonAnimation,
       link: "https://button-animations-psi.vercel.app/",
     },
     {
       name: "Real estate API",
       description:
-        "A full-featured Real Estate Marketplace API built with Node.js, Express, and MongoDB. This project covers modern backend architecture including user authentication, authorization, image uploads with AWS S3, and email functionality via AWS SES. It integrates Google Maps for geolocation-based property listings and supports advanced search/filtering. Users can manage their listings, reset passwords, and communicate with agents via email. The project is structured with clean routes, controllers, and middleware, and includes a PDF booklet with step-by-step source code guidance.",
+        "A full-featured Real Estate Marketplace API built with Node.js, Express, and MongoDB. This project covers modern backend architecture including user authentication, authorization, image uploads with AWS S3, and email functionality via AWS SES. It integrates Google Maps for geolocation-based property listings and supports advanced search/filtering. Users can manage their listings, reset passwords, and communicate with agents via email. The project is structured with clean routes, controllers, and middleware.",
       image: realEstateAPI,
       link: "https://github.com/RaviTejaKaranam/real-estate-api",
     },
