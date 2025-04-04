@@ -49,14 +49,14 @@ export const Header = () => {
                   Experience
                 </a>
               </li>
-              {/*<li>
+              <li>
                 <a
                   href="#projects"
                   className="hover:text-[var(--secondary-text-color)]"
                 >
                   Projects
                 </a>
-              </li>*/}
+              </li>
               <li>
                 <a
                   href="#contact"
@@ -101,14 +101,14 @@ export const Header = () => {
                   Experience
                 </a>
               </li>
-              {/*<li>
+              <li>
                 <a
                   href="#projects"
                   className="hover:text-[var(--secondary-text-color)] w-full block"
                 >
                   Projects
                 </a>
-              </li>*/}
+              </li>
               <li>
                 <a
                   href="#contact"
